@@ -2,9 +2,9 @@
 $header = <<<'HEADER'
 This file is part of the <nom del paquet> package.  
   
-Drivania (c) All rights reserved.  
-HEADER;  
-  
+Drivania (c) All rights reserved. 
+HEADER;
+
 $config = PhpCsFixer\Config::create()  
     ->setRules([  
         '@PSR2' => true,  
