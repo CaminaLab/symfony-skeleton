@@ -2,7 +2,7 @@ parameters:
     paths:
         - src
         - tests
-    level: <nivell>
+    level: max
     autoload_files:
         - bin/.phpunit/phpunit-6.5/vendor/autoload.php
 
