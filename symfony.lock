@@ -50,6 +50,9 @@
     "nette/robot-loader": {
         "version": "v3.1.0"
     },
+    "nette/schema": {
+        "version": "v1.0.0"
+    },
     "nette/utils": {
         "version": "v2.5.3"
     },
@@ -100,6 +103,9 @@
             "version": "3.3",
             "ref": "e3868d2f4a5104f19f844fe551099a00c6562527"
         }
+    },
+    "symfony/contracts": {
+        "version": "v1.1.0"
     },
     "symfony/css-selector": {
         "version": "v4.1.7"
@@ -187,6 +193,9 @@
     },
     "symfony/test-pack": {
         "version": "v1.0.4"
+    },
+    "symfony/var-exporter": {
+        "version": "v4.2.8"
     },
     "symfony/web-server-bundle": {
         "version": "3.3",
