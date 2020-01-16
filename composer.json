@@ -57,7 +57,8 @@
         ],
         "test": "bin/phpunit",
         "cs": "vendor/bin/php-cs-fixer fix",
-        "stan": "vendor/bin/phpstan analyze"
+        "stan": "vendor/bin/phpstan analyze",
+        "psalm": "vendor/bin/psalm"
     },
     "conflict": {
         "symfony/symfony": "*"
