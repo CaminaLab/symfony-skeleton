@@ -11,6 +11,7 @@
         <directory name="tests" />
         <ignoreFiles>
             <directory name="vendor" />
+            <file name="src/UI/Kernel.php"/>
         </ignoreFiles>
     </projectFiles>
 
