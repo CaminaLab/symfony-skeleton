@@ -16,8 +16,6 @@ class HealthController
 {
     /**
      * Offers a 200 HTTP code to prove the service is still working.
-     *
-     * @return Response
      */
     public function health(): Response
     {
