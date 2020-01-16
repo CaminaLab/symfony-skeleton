@@ -10,6 +10,10 @@ This project is based in Symfony 4.4.
 
 2. Replace the `README.md` file contents by documentation that suits better your new project.
 
+3. Replace the value of the parameter `host_project_name` in `config/services.yaml` by the first part of the name of the public domain of this service. For example, if it's going to be published under `booking.drivania.com`, this value must be set to `booking`.
+
+4. Define an ENV var called `ELASTIC_IP` in `.env` with the IP of the Elastic Log server. 
+
 ## Available tools
 
 ### PHP-CS-Fixer
