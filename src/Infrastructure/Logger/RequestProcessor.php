@@ -24,9 +24,6 @@ class RequestProcessor
 
     /**
      * RequestProcessor constructor.
-     * @param RequestStack $request
-     * @param string $env
-     * @param string $projectName
      */
     public function __construct(RequestStack $request, string $env, string $projectName)
     {
@@ -52,8 +49,8 @@ class RequestProcessor
 
         $host = $request->server->get('HTTP_HOST');
 
-        if (!$host || preg_match('@^\d+\.\d+\.\d+\.\d+@', $host)) {
-            $host = ('prod' !== $this->env ? $this->env . '-' : ''). $this->projectName . '.drivania.com';
+        if (!$host || \preg_match('@^\\d+\\.\\d+\\.\\d+\\.\\d+@', $host)) {
+            $host = ('prod' !== $this->env ? $this->env . '-' : '') . $this->projectName . '.drivania.com';
         }
 
         $record['extra']['server']['HTTP_HOST'] = $host;
