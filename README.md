@@ -14,30 +14,47 @@ This project is based in Symfony 4.4.
 
 4. Define an ENV var called `ELASTIC_IP` in `.env` with the IP of the Elastic Log server. 
 
+## Templating dependencies
+
+Install all of the following dependencies, optionally skipping any if you do not want to install it:
+
+```
+# Twig (templates)
+composer require twig
+
+# Webpack Encore (asset management) 
+composer require webpack-encore
+
+# Symfony translation (Translations)
+composer require symfony/translation
+
+```
+
+
 ## Available tools
 
 ### PHP-CS-Fixer
 
 Runs at every commit performed on the project, to assure the code follows the Drivania writing rules. Can also be run by using:
 
-```shell script
+```
 composer cs
 ```
 
 ### PHPUnit 
 
-```shell script
+```
 composer test
 ```
 
 ### Psalm
 
-```shell script
+```
 composer psalm
 ```
 
 ### PHPStan
 
-```shell script
+```
 composer stan
 ```
