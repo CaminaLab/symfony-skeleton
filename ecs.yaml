@@ -14,7 +14,3 @@ parameters:
     - php71
     - psr12
 
-  paths:
-    - src
-    - tests
-

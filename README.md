@@ -58,3 +58,9 @@ composer psalm
 ```
 composer stan
 ```
+
+### Rector
+
+```
+composer rector
+```
