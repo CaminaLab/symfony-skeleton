@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 /**
  * This file is part of the <nom del paquet> package.
  *
@@ -40,7 +42,7 @@ class RequestProcessor
         }
 
         $request = $this->request->getCurrentRequest();
-        if (!$request) {
+        if ($request === null) {
             return $record;
         }
 
