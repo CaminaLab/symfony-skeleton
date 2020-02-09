@@ -1,0 +1,19 @@
+parameters:
+  sets:
+    - 'code-quality'
+    - 'php71'
+    - 'php72'
+    - 'php73'
+    - 'php74'
+    - 'symfony40'
+    - 'symfony41'
+    - 'symfony42'
+    - 'symfony43'
+    - 'symfony44'
+    - 'symfony50'
+
+  paths:
+    - 'src'
+    - 'tests'
+
+  php_version_features: '7.3'

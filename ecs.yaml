@@ -8,8 +8,12 @@ services:
 
 parameters:
   sets:
-    - 'clean-code'
-    - 'psr12'
+    - clean-code
+    - dead-code
+    - php70
+    - php71
+    - psr12
+
   paths:
     - src
     - tests
