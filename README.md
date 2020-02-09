@@ -33,12 +33,12 @@ composer require symfony/translation
 
 ## Available tools
 
-### PHP-CS-Fixer
+### Easy coding standard
 
 Runs at every commit performed on the project, to assure the code follows the Drivania writing rules. Can also be run by using:
 
 ```
-composer cs
+composer ecs
 ```
 
 ### PHPUnit 

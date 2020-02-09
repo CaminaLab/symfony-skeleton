@@ -1,0 +1,16 @@
+services:
+  PhpCsFixer\Fixer\Comment\HeaderCommentFixer:
+    commentType: PHPDoc
+    header: |
+      This file is part of the <nom del paquet> package.
+
+      Drivania (c) All rights reserved.
+
+parameters:
+  sets:
+    - 'clean-code'
+    - 'psr12'
+  paths:
+    - src
+    - tests
+

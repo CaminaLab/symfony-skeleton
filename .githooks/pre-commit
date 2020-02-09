@@ -1,6 +1,6 @@
 #!/bin/bash
 
-filesCodeSniffed=$(composer cs |  grep "^   \d" | cut -f5 -d" ")
+filesCodeSniffed=$(composer ecs |  grep -E "\.php" | grep -E "[0-9]+\) "| cut -f2 -d" ")
 
 for file in $filesCodeSniffed; do
   git add "$file"
