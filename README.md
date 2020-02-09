@@ -2,7 +2,7 @@
 
 This is the official Drivania Symfony Skeleton, which all new PHP projects should started with. 
 
-This project is based in Symfony 4.4.
+This project is based in Symfony 5.0.
 
 ## First steps after cloning
 
